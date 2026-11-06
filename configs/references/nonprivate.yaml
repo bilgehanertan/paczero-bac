@@ -1,0 +1,22 @@
+# Non-private ZO reference rows. Feeds tab:full-grid-squad, tab:full-grid-sst2, tab:headline.
+- {id: squad_1p3b_ft_ref_lr3em6_s0, setting: squad_1p3b_ft, variant: nonprivate, learning_rate: 3.0e-6, train_set_seed: 0}
+
+- {id: squad_6p7b_ft_ref_c1000_lr2em6_s0, setting: squad_6p7b_ft, variant: nonprivate, learning_rate: 2.0e-6, pac_clip: 1000.0, train_set_seed: 0}
+- {id: squad_6p7b_ft_ref_c1000_lr2em6_s1, setting: squad_6p7b_ft, variant: nonprivate, learning_rate: 2.0e-6, pac_clip: 1000.0, train_set_seed: 1}
+- {id: squad_6p7b_ft_ref_c1000_lr2em6_s2, setting: squad_6p7b_ft, variant: nonprivate, learning_rate: 2.0e-6, pac_clip: 1000.0, train_set_seed: 2}
+
+- {id: squad_llama8b_ft_ref_c1000_lr2em6_s0, setting: squad_llama8b_ft, variant: nonprivate, learning_rate: 2.0e-6, pac_clip: 1000.0, train_set_seed: 0}
+
+- {id: sst2_1p3b_ft_ref_c1000_lr5em6_s0, setting: sst2_1p3b_ft, variant: nonprivate, learning_rate: 5.0e-6, pac_clip: 1000.0, train_set_seed: 0}
+
+- {id: sst2_6p7b_ft_ref_c1000_lr5em6_s0, setting: sst2_6p7b_ft, variant: nonprivate, learning_rate: 5.0e-6, pac_clip: 1000.0, train_set_seed: 0}
+
+- {id: sst2_llama8b_ft_ref_c1000_lr5em6_s0, setting: sst2_llama8b_ft, variant: nonprivate, learning_rate: 5.0e-6, pac_clip: 1000.0, train_set_seed: 0}
+- {id: sst2_llama8b_ft_ref_c1000_lr5em6_s1, setting: sst2_llama8b_ft, variant: nonprivate, learning_rate: 5.0e-6, pac_clip: 1000.0, train_set_seed: 1}
+- {id: sst2_llama8b_ft_ref_c1000_lr5em6_s2, setting: sst2_llama8b_ft, variant: nonprivate, learning_rate: 5.0e-6, pac_clip: 1000.0, train_set_seed: 2}
+
+- {id: sst2_1p3b_lora_ref_c1000_s0, setting: sst2_1p3b_lora, variant: nonprivate, pac_clip: 1000.0, train_set_seed: 0}
+
+- {id: sst2_6p7b_lora_ref_c1000_s0, setting: sst2_6p7b_lora, variant: nonprivate, pac_clip: 1000.0, train_set_seed: 0}
+
+- {id: sst2_llama8b_lora_ref_c1000_lr5em4_s0, setting: sst2_llama8b_lora, variant: nonprivate, learning_rate: 5.0e-4, pac_clip: 1000.0, train_set_seed: 0}

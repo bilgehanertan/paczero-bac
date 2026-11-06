@@ -1,0 +1,83 @@
+# Bases hold the protocol a family of runs shares. Variants fix the mechanism keys, which a run line cannot change.
+
+bases:
+  train:
+    runner: paczo
+    setting: true
+    requires: [train_set_seed]
+    params:
+      trainer: zo
+      load_float16: true
+      num_train: 1000
+      num_dev: 500
+      num_eval: 1000
+      per_device_train_batch_size: 1000
+      logging_steps: 20
+      eval_strategy: steps
+      eval_steps: 100
+      save_strategy: steps
+      save_steps: 100
+      save_total_limit: 3
+      load_best_model_at_end: true
+      metric_for_best_model: eval_loss
+      greater_is_better: false
+      lr_scheduler_type: polynomial
+  zeroshot:
+    runner: paczo
+    requires: [model_name, task_name, train_set_seed]
+    params:
+      load_float16: true
+      num_eval: 1000
+  dp:
+    runner: dpaggzo
+    params:
+      MODE: ft
+      EPS: 1.0e-3
+      SEED: 0
+      TRAIN: 1000
+      DEV: 500
+      EVAL: 1000
+      EVAL_STEPS: 100
+      DP_SAMPLE_RATE: 0.064
+
+variants:
+  # PACZero-AGC, Gaussian channel, adaptive per-step budget
+  agc:
+    base: train
+    requires: [pac_mi]
+    params: {pac_channel: gaussian, pac_adaptive_mi: true, lr_scheduler_kwargs: {lr_end: 1.0e-7}}
+  # PACZero-BAC, binary asymmetric channel, adaptive per-step budget
+  bac:
+    base: train
+    requires: [pac_mi]
+    params: {pac_channel: binary, pac_adaptive_mi: true, lr_scheduler_kwargs: {lr_end: 1.0e-7}}
+  # PACZero-AGC_0, fair coin on disagreement, zero MI budget
+  agc0:
+    base: train
+    params: {pac_zero_budget: coin, pac_mi: 0.0, lr_scheduler_kwargs: {lr_end: 1.0e-7}}
+  # PACZero-BAC_0, posterior-majority sign on disagreement, zero MI budget
+  bac0:
+    base: train
+    params: {pac_zero_budget: majority, pac_mi: 0.0, lr_scheduler_kwargs: {lr_end: 1.0e-7}}
+  # PACZero-AGC with the uniform per-step budget MI / T (constant beta row of tab:ablation)
+  agc_uniform:
+    base: train
+    requires: [pac_mi]
+    params: {pac_channel: gaussian, pac_adaptive_mi: false, lr_scheduler_kwargs: {lr_end: 1.0e-7}}
+  # non-private ZO reference, updates with the clipped mean of all N records
+  nonprivate:
+    base: train
+    params: {no_privacy: true, pac_mi: 0.33, lr_scheduler_kwargs: {lr_end: 0.0}}
+  # pretrained model, no training
+  zeroshot:
+    base: zeroshot
+    params: {}
+  # DPZero, the DP-AggZO launcher with one direction
+  dpzero:
+    base: dp
+    params: {N: 1}
+  # DP-AggZO
+  dpaggzo:
+    base: dp
+    requires: [N]
+    params: {}

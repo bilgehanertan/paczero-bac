@@ -1,0 +1,4 @@
+# LoRA rank ablation. Feeds tab:rank-ablation.
+- {id: sst2_6p7b_lora_agc_mi033_r4_s0, setting: sst2_6p7b_lora, variant: agc, lora_r: 4, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc_mi033_r8_s0, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc_mi033_r16_s0, setting: sst2_6p7b_lora, variant: agc, lora_r: 16, pac_mi: 0.33, train_set_seed: 0}

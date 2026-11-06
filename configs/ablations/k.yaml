@@ -1,0 +1,25 @@
+# K-aggregation ablation. Feeds tab:k-ablation-all.
+- {id: sst2_1p3b_ft_agc_mi033_K64_T16_s0, setting: sst2_1p3b_ft, variant: agc, max_steps: 16, eval_steps: 2, save_steps: 2, pac_k: 64, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc_mi033_K16_T63_s0, setting: sst2_1p3b_ft, variant: agc, max_steps: 63, eval_steps: 7, save_steps: 7, pac_k: 16, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc_mi033_K4_T250_s0, setting: sst2_1p3b_ft, variant: agc, max_steps: 250, eval_steps: 25, save_steps: 25, pac_k: 4, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc_mi033_K4_T1000_s0, setting: sst2_1p3b_ft, variant: agc, pac_k: 4, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc_mi033_K16_T1000_s0, setting: sst2_1p3b_ft, variant: agc, pac_k: 16, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc_mi033_K64_T1000_s0, setting: sst2_1p3b_ft, variant: agc, pac_k: 64, pac_mi: 0.33, train_set_seed: 0}
+
+- {id: sst2_6p7b_ft_agc_mi033_K64_T16_s0, setting: sst2_6p7b_ft, variant: agc, max_steps: 16, eval_steps: 2, save_steps: 2, pac_k: 64, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc_mi033_K16_T63_s0, setting: sst2_6p7b_ft, variant: agc, max_steps: 63, eval_steps: 7, save_steps: 7, pac_k: 16, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc_mi033_K4_T250_s0, setting: sst2_6p7b_ft, variant: agc, max_steps: 250, eval_steps: 25, save_steps: 25, pac_k: 4, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc_mi033_K4_T1000_s0, setting: sst2_6p7b_ft, variant: agc, pac_k: 4, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc_mi033_K16_T1000_s0, setting: sst2_6p7b_ft, variant: agc, pac_k: 16, pac_mi: 0.33, train_set_seed: 0}
+
+- {id: sst2_1p3b_lora_agc_mi033_K64_T32_s0, setting: sst2_1p3b_lora, variant: agc, max_steps: 32, eval_steps: 2, save_steps: 2, pac_k: 64, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_K16_T125_s0, setting: sst2_1p3b_lora, variant: agc, max_steps: 125, eval_steps: 5, save_steps: 5, pac_k: 16, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_K4_T500_s0, setting: sst2_1p3b_lora, variant: agc, max_steps: 500, eval_steps: 25, save_steps: 25, pac_k: 4, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_K4_T2000_s0, setting: sst2_1p3b_lora, variant: agc, pac_k: 4, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_K16_T2000_s0, setting: sst2_1p3b_lora, variant: agc, pac_k: 16, pac_mi: 0.33, train_set_seed: 0}
+
+- {id: sst2_6p7b_lora_agc_mi033_K64_T32_s0, setting: sst2_6p7b_lora, variant: agc, max_steps: 32, eval_steps: 2, save_steps: 2, pac_k: 64, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc_mi033_K16_T125_s0, setting: sst2_6p7b_lora, variant: agc, max_steps: 125, eval_steps: 5, save_steps: 5, pac_k: 16, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc_mi033_K4_T500_s0, setting: sst2_6p7b_lora, variant: agc, max_steps: 500, eval_steps: 25, save_steps: 25, pac_k: 4, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc_mi033_K4_T2000_s0, setting: sst2_6p7b_lora, variant: agc, pac_k: 4, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc_mi033_K16_T2000_s0, setting: sst2_6p7b_lora, variant: agc, pac_k: 16, pac_mi: 0.33, train_set_seed: 0}

@@ -1,0 +1,22 @@
+diff --git a/opt/src/dp_trainer_aggzo.py b/opt/src/dp_trainer_aggzo.py
+index cae8e1d..5fb91cb 100644
+--- a/opt/src/dp_trainer_aggzo.py
++++ b/opt/src/dp_trainer_aggzo.py
+@@ -415,6 +415,8 @@ class OurTrainer(Trainer):
+             ],
+         )
+         self.state.is_hyper_param_search = trial is not None
++        for _k in ("logging_steps", "eval_steps", "save_steps"):
++            setattr(self.state, _k, getattr(args, _k))
+ 
+         # Activate gradient checkpointing if needed
+         if args.gradient_checkpointing:
+@@ -690,6 +692,8 @@ class OurTrainer(Trainer):
+                     self.state.global_step += 1
+                     self.state.epoch = epoch + (step + 1) / steps_in_epoch
+                     self.control = self.callback_handler.on_step_end(args, self.state, self.control)
++                    if self.state.global_step >= self.state.max_steps:
++                        self.control.should_evaluate = True
+ 
+                     self._maybe_log_save_evaluate(tr_loss, None, model, trial, epoch, ignore_keys_for_eval)
+                 else:

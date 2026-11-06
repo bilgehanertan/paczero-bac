@@ -1,0 +1,121 @@
+diff --git a/opt/src/dp_trainer_aggzo.py b/opt/src/dp_trainer_aggzo.py
+index 2450ad5..cae8e1d 100644
+--- a/opt/src/dp_trainer_aggzo.py
++++ b/opt/src/dp_trainer_aggzo.py
+@@ -41,10 +41,8 @@ from sklearn.linear_model import LinearRegression, LogisticRegression, LogisticR
+ 
+ # Integrations must be imported before ML frameworks:
+ from transformers.integrations import (  # isort: split
+-    default_hp_search_backend,
+     get_reporting_integration_callbacks,
+     hp_params,
+-    is_fairscale_available,
+     is_optuna_available,
+     is_ray_tune_available,
+     is_sigopt_available,
+@@ -75,7 +73,10 @@ from transformers.modelcard import TrainingSummary
+ from transformers.modeling_utils import PreTrainedModel, load_sharded_checkpoint, unwrap_model
+ from transformers.models.auto.modeling_auto import MODEL_FOR_CAUSAL_LM_MAPPING_NAMES, MODEL_MAPPING_NAMES
+ from transformers.optimization import Adafactor, get_scheduler
+-from transformers.pytorch_utils import ALL_LAYERNORM_LAYERS, is_torch_greater_or_equal_than_1_10, is_torch_less_than_1_11
++from transformers.pytorch_utils import ALL_LAYERNORM_LAYERS
++
++is_torch_greater_or_equal_than_1_10 = True
++is_torch_less_than_1_11 = False
+ from transformers.tokenization_utils_base import PreTrainedTokenizerBase
+ from transformers.trainer_callback import (
+     CallbackHandler,
+@@ -118,11 +119,9 @@ from transformers.trainer_utils import (
+     IntervalStrategy,
+     PredictionOutput,
+     RemoveColumnsCollator,
+-    ShardedDDPOption,
+     TrainerMemoryTracker,
+     TrainOutput,
+     default_compute_objective,
+-    default_hp_space,
+     denumpify_detensorize,
+     enable_full_determinism,
+     find_executable_batch_size,
+@@ -181,15 +180,6 @@ if is_torch_tpu_available(check_device=False):
+     import torch_xla.debug.metrics as met
+     import torch_xla.distributed.parallel_loader as pl
+ 
+-if is_fairscale_available():
+-    dep_version_check("fairscale")
+-    import fairscale
+-    from fairscale.nn.data_parallel import FullyShardedDataParallel as FullyShardedDDP
+-    from fairscale.nn.data_parallel import ShardedDataParallel as ShardedDDP
+-    from fairscale.nn.wrap import auto_wrap
+-    from fairscale.optim import OSS
+-    from fairscale.optim.grad_scaler import ShardedGradScaler
+-
+ 
+ if is_sagemaker_mp_enabled():
+     import smdistributed.modelparallel.torch as smp
+@@ -410,14 +400,20 @@ class OurTrainer(Trainer):
+                 debug_overflow = DebugUnderflowOverflow(self.model)  # noqa
+ 
+         delay_optimizer_creation = (
+-            self.sharded_ddp is not None
+-            and self.sharded_ddp != ShardedDDPOption.SIMPLE
+-            or is_sagemaker_mp_enabled()
+-            or self.fsdp is not None
++            is_sagemaker_mp_enabled() or self.is_fsdp_xla_enabled or self.is_fsdp_enabled
+         )
+         self.create_optimizer_and_scheduler(num_training_steps=max_steps)
+ 
+-        self.state = TrainerState()
++        from transformers.trainer_callback import ExportableState as _ExportableState
++        self.state = TrainerState(
++            is_local_process_zero=self.is_local_process_zero(),
++            is_world_process_zero=self.is_world_process_zero(),
++            stateful_callbacks=[
++                cb
++                for cb in self.callback_handler.callbacks + [self.control]
++                if isinstance(cb, _ExportableState)
++            ],
++        )
+         self.state.is_hyper_param_search = trial is not None
+ 
+         # Activate gradient checkpointing if needed
+@@ -695,7 +691,7 @@ class OurTrainer(Trainer):
+                     self.state.epoch = epoch + (step + 1) / steps_in_epoch
+                     self.control = self.callback_handler.on_step_end(args, self.state, self.control)
+ 
+-                    self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
++                    self._maybe_log_save_evaluate(tr_loss, None, model, trial, epoch, ignore_keys_for_eval)
+                 else:
+                     self.control = self.callback_handler.on_substep_end(args, self.state, self.control)
+ 
+@@ -710,7 +706,7 @@ class OurTrainer(Trainer):
+                 self.control.should_training_stop = True
+ 
+             self.control = self.callback_handler.on_epoch_end(args, self.state, self.control)
+-            self._maybe_log_save_evaluate(tr_loss, model, trial, epoch, ignore_keys_for_eval)
++            self._maybe_log_save_evaluate(tr_loss, None, model, trial, epoch, ignore_keys_for_eval)
+ 
+             if DebugOption.TPU_METRICS_DEBUG in self.args.debug:
+                 if is_torch_tpu_available():
+@@ -733,7 +729,7 @@ class OurTrainer(Trainer):
+             # Wait for everyone to get here so we are sur the model has been saved by process 0.
+             if is_torch_tpu_available():
+                 xm.rendezvous("load_best_model_at_end")
+-            elif args.local_rank != -1:
++            elif dist.is_available() and dist.is_initialized():
+                 dist.barrier()
+             elif is_sagemaker_mp_enabled():
+                 smp.barrier()
+@@ -1000,11 +996,7 @@ class OurTrainer(Trainer):
+             if IS_SAGEMAKER_MP_POST_1_10:
+                 # 'user_content.pt' indicates model state_dict saved with smp >= 1.10
+                 Path(os.path.join(output_dir, "user_content.pt")).touch()
+-        elif (
+-            ShardedDDPOption.ZERO_DP_2 in self.args.sharded_ddp
+-            or ShardedDDPOption.ZERO_DP_3 in self.args.sharded_ddp
+-            or self.fsdp is not None
+-        ):
++        elif self.is_fsdp_enabled:
+             from torch.distributed.fsdp import FullyShardedDataParallel as FSDP, StateDictType, FullStateDictConfig
+             full_state_dict_config = FullStateDictConfig(offload_to_cpu=True, rank0_only=True)
+ 

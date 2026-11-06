@@ -1,0 +1,20 @@
+{
+  "models": {
+    "facebook/opt-1.3b": "3f5c25d0bc631cb57ac65913f76e22c2dfb61d62",
+    "facebook/opt-6.7b": "a45aa65bbeb77c1558bc99bedc6779195462dab0",
+    "Qwen/Qwen2.5-7B": "d149729398750b98c0af14eb82c78cfe92750796",
+    "meta-llama/Llama-3.1-8B": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b"
+  },
+  "datasets": {
+    "SST2": {
+      "path": "glue",
+      "name": "sst2",
+      "revision": "bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c"
+    },
+    "SQuAD": {
+      "path": "squad",
+      "name": "plain_text",
+      "revision": "7b6d24c440a36b6815f21b70d25016731768db1f"
+    }
+  }
+}

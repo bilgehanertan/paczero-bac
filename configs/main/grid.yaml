@@ -1,0 +1,496 @@
+# Main grid. Feeds app:mia, app:protocol-details, app:unanimity-headline, tab:ablation, tab:full-grid-squad, tab:full-grid-sst2, tab:headline, tab:k-ablation-all, tab:mia, tab:mia-all, tab:per-seed-all, tab:unanimity-pools.
+- {id: squad_1p3b_ft_agc_mi001_s0, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_1p3b_ft_agc_mi001_s1, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_1p3b_ft_agc_mi001_s2, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_1p3b_ft_agc_mi011_s0, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_1p3b_ft_agc_mi011_s1, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_1p3b_ft_agc_mi011_s2, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_1p3b_ft_agc_mi033_s0, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_1p3b_ft_agc_mi033_s1, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_1p3b_ft_agc_mi033_s2, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_1p3b_ft_agc_mi068_s0, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_1p3b_ft_agc_mi068_s1, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_1p3b_ft_agc_mi068_s2, setting: squad_1p3b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_1p3b_ft_bac_mi001_s0, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_1p3b_ft_bac_mi001_s1, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_1p3b_ft_bac_mi001_s2, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_1p3b_ft_bac_mi011_s0, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_1p3b_ft_bac_mi011_s1, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_1p3b_ft_bac_mi011_s2, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_1p3b_ft_bac_mi033_s0, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_1p3b_ft_bac_mi033_s1, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_1p3b_ft_bac_mi033_s2, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_1p3b_ft_bac_mi068_s0, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_1p3b_ft_bac_mi068_s1, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_1p3b_ft_bac_mi068_s2, setting: squad_1p3b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_1p3b_ft_agc0_s0, setting: squad_1p3b_ft, variant: agc0, train_set_seed: 0}
+- {id: squad_1p3b_ft_agc0_s1, setting: squad_1p3b_ft, variant: agc0, train_set_seed: 1}
+- {id: squad_1p3b_ft_agc0_s2, setting: squad_1p3b_ft, variant: agc0, train_set_seed: 2}
+- {id: squad_1p3b_ft_bac0_s0, setting: squad_1p3b_ft, variant: bac0, train_set_seed: 0}
+- {id: squad_1p3b_ft_bac0_s1, setting: squad_1p3b_ft, variant: bac0, train_set_seed: 1}
+- {id: squad_1p3b_ft_bac0_s2, setting: squad_1p3b_ft, variant: bac0, train_set_seed: 2}
+
+- {id: squad_6p7b_ft_agc_mi001_s0, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_6p7b_ft_agc_mi001_s1, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_6p7b_ft_agc_mi001_s2, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_6p7b_ft_agc_mi011_s0, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_6p7b_ft_agc_mi011_s1, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_6p7b_ft_agc_mi011_s2, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_6p7b_ft_agc_mi033_s0, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_6p7b_ft_agc_mi033_s1, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_6p7b_ft_agc_mi033_s2, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_6p7b_ft_agc_mi068_s0, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_6p7b_ft_agc_mi068_s1, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_6p7b_ft_agc_mi068_s2, setting: squad_6p7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_6p7b_ft_bac_mi001_s0, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_6p7b_ft_bac_mi001_s1, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_6p7b_ft_bac_mi001_s2, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_6p7b_ft_bac_mi011_s0, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_6p7b_ft_bac_mi011_s1, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_6p7b_ft_bac_mi011_s2, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_6p7b_ft_bac_mi033_s0, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_6p7b_ft_bac_mi033_s1, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_6p7b_ft_bac_mi033_s2, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_6p7b_ft_bac_mi068_s0, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_6p7b_ft_bac_mi068_s1, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_6p7b_ft_bac_mi068_s2, setting: squad_6p7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_6p7b_ft_agc0_s0, setting: squad_6p7b_ft, variant: agc0, train_set_seed: 0}
+- {id: squad_6p7b_ft_agc0_s1, setting: squad_6p7b_ft, variant: agc0, train_set_seed: 1}
+- {id: squad_6p7b_ft_agc0_s2, setting: squad_6p7b_ft, variant: agc0, train_set_seed: 2}
+- {id: squad_6p7b_ft_bac0_s0, setting: squad_6p7b_ft, variant: bac0, train_set_seed: 0}
+- {id: squad_6p7b_ft_bac0_s1, setting: squad_6p7b_ft, variant: bac0, train_set_seed: 1}
+- {id: squad_6p7b_ft_bac0_s2, setting: squad_6p7b_ft, variant: bac0, train_set_seed: 2}
+
+- {id: squad_qwen7b_ft_agc_mi001_s0, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_qwen7b_ft_agc_mi001_s1, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_qwen7b_ft_agc_mi001_s2, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_qwen7b_ft_agc_mi011_s0, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_qwen7b_ft_agc_mi011_s1, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_qwen7b_ft_agc_mi011_s2, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_qwen7b_ft_agc_mi033_s0, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_qwen7b_ft_agc_mi033_s1, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_qwen7b_ft_agc_mi033_s2, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_qwen7b_ft_agc_mi068_s0, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_qwen7b_ft_agc_mi068_s1, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_qwen7b_ft_agc_mi068_s2, setting: squad_qwen7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_qwen7b_ft_bac_mi001_s0, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_qwen7b_ft_bac_mi001_s1, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_qwen7b_ft_bac_mi001_s2, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_qwen7b_ft_bac_mi011_s0, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_qwen7b_ft_bac_mi011_s1, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_qwen7b_ft_bac_mi011_s2, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_qwen7b_ft_bac_mi033_s0, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_qwen7b_ft_bac_mi033_s1, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_qwen7b_ft_bac_mi033_s2, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_qwen7b_ft_bac_mi068_s0, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_qwen7b_ft_bac_mi068_s1, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_qwen7b_ft_bac_mi068_s2, setting: squad_qwen7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_qwen7b_ft_agc0_s0, setting: squad_qwen7b_ft, variant: agc0, train_set_seed: 0}
+- {id: squad_qwen7b_ft_agc0_s1, setting: squad_qwen7b_ft, variant: agc0, train_set_seed: 1}
+- {id: squad_qwen7b_ft_agc0_s2, setting: squad_qwen7b_ft, variant: agc0, train_set_seed: 2}
+- {id: squad_qwen7b_ft_bac0_s0, setting: squad_qwen7b_ft, variant: bac0, train_set_seed: 0}
+- {id: squad_qwen7b_ft_bac0_s1, setting: squad_qwen7b_ft, variant: bac0, train_set_seed: 1}
+- {id: squad_qwen7b_ft_bac0_s2, setting: squad_qwen7b_ft, variant: bac0, train_set_seed: 2}
+
+- {id: squad_llama8b_ft_agc_mi001_s0, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_llama8b_ft_agc_mi001_s1, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_llama8b_ft_agc_mi001_s2, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_llama8b_ft_agc_mi011_s0, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_llama8b_ft_agc_mi011_s1, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_llama8b_ft_agc_mi011_s2, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_llama8b_ft_agc_mi033_s0, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_llama8b_ft_agc_mi033_s1, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_llama8b_ft_agc_mi033_s2, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_llama8b_ft_agc_mi068_s0, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_llama8b_ft_agc_mi068_s1, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_llama8b_ft_agc_mi068_s2, setting: squad_llama8b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_llama8b_ft_bac_mi001_s0, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_llama8b_ft_bac_mi001_s1, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_llama8b_ft_bac_mi001_s2, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_llama8b_ft_bac_mi011_s0, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_llama8b_ft_bac_mi011_s1, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_llama8b_ft_bac_mi011_s2, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_llama8b_ft_bac_mi033_s0, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_llama8b_ft_bac_mi033_s1, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_llama8b_ft_bac_mi033_s2, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_llama8b_ft_bac_mi068_s0, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_llama8b_ft_bac_mi068_s1, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_llama8b_ft_bac_mi068_s2, setting: squad_llama8b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_llama8b_ft_agc0_s0, setting: squad_llama8b_ft, variant: agc0, train_set_seed: 0}
+- {id: squad_llama8b_ft_agc0_s1, setting: squad_llama8b_ft, variant: agc0, train_set_seed: 1}
+- {id: squad_llama8b_ft_agc0_s2, setting: squad_llama8b_ft, variant: agc0, train_set_seed: 2}
+- {id: squad_llama8b_ft_bac0_s0, setting: squad_llama8b_ft, variant: bac0, train_set_seed: 0}
+- {id: squad_llama8b_ft_bac0_s1, setting: squad_llama8b_ft, variant: bac0, train_set_seed: 1}
+- {id: squad_llama8b_ft_bac0_s2, setting: squad_llama8b_ft, variant: bac0, train_set_seed: 2}
+
+- {id: squad_1p3b_lora_agc_mi001_s0, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_1p3b_lora_agc_mi001_s1, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_1p3b_lora_agc_mi001_s2, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_1p3b_lora_agc_mi011_s0, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_1p3b_lora_agc_mi011_s1, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_1p3b_lora_agc_mi011_s2, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_1p3b_lora_agc_mi033_s0, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_1p3b_lora_agc_mi033_s1, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_1p3b_lora_agc_mi033_s2, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_1p3b_lora_agc_mi068_s0, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_1p3b_lora_agc_mi068_s1, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_1p3b_lora_agc_mi068_s2, setting: squad_1p3b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_1p3b_lora_bac_mi001_s0, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_1p3b_lora_bac_mi001_s1, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_1p3b_lora_bac_mi001_s2, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_1p3b_lora_bac_mi011_s0, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_1p3b_lora_bac_mi011_s1, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_1p3b_lora_bac_mi011_s2, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_1p3b_lora_bac_mi033_s0, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_1p3b_lora_bac_mi033_s1, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_1p3b_lora_bac_mi033_s2, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_1p3b_lora_bac_mi068_s0, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_1p3b_lora_bac_mi068_s1, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_1p3b_lora_bac_mi068_s2, setting: squad_1p3b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_1p3b_lora_agc0_s0, setting: squad_1p3b_lora, variant: agc0, train_set_seed: 0}
+- {id: squad_1p3b_lora_agc0_s1, setting: squad_1p3b_lora, variant: agc0, train_set_seed: 1}
+- {id: squad_1p3b_lora_agc0_s2, setting: squad_1p3b_lora, variant: agc0, train_set_seed: 2}
+- {id: squad_1p3b_lora_bac0_s0, setting: squad_1p3b_lora, variant: bac0, train_set_seed: 0}
+- {id: squad_1p3b_lora_bac0_s1, setting: squad_1p3b_lora, variant: bac0, train_set_seed: 1}
+- {id: squad_1p3b_lora_bac0_s2, setting: squad_1p3b_lora, variant: bac0, train_set_seed: 2}
+
+- {id: squad_6p7b_lora_agc_mi001_s0, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_6p7b_lora_agc_mi001_s1, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_6p7b_lora_agc_mi001_s2, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_6p7b_lora_agc_mi011_s0, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_6p7b_lora_agc_mi011_s1, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_6p7b_lora_agc_mi011_s2, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_6p7b_lora_agc_mi033_s0, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_6p7b_lora_agc_mi033_s1, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_6p7b_lora_agc_mi033_s2, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_6p7b_lora_agc_mi068_s0, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_6p7b_lora_agc_mi068_s1, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_6p7b_lora_agc_mi068_s2, setting: squad_6p7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_6p7b_lora_bac_mi001_s0, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_6p7b_lora_bac_mi001_s1, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_6p7b_lora_bac_mi001_s2, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_6p7b_lora_bac_mi011_s0, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_6p7b_lora_bac_mi011_s1, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_6p7b_lora_bac_mi011_s2, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_6p7b_lora_bac_mi033_s0, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_6p7b_lora_bac_mi033_s1, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_6p7b_lora_bac_mi033_s2, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_6p7b_lora_bac_mi068_s0, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_6p7b_lora_bac_mi068_s1, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_6p7b_lora_bac_mi068_s2, setting: squad_6p7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_6p7b_lora_agc0_s0, setting: squad_6p7b_lora, variant: agc0, train_set_seed: 0}
+- {id: squad_6p7b_lora_agc0_s1, setting: squad_6p7b_lora, variant: agc0, train_set_seed: 1}
+- {id: squad_6p7b_lora_agc0_s2, setting: squad_6p7b_lora, variant: agc0, train_set_seed: 2}
+- {id: squad_6p7b_lora_bac0_s0, setting: squad_6p7b_lora, variant: bac0, train_set_seed: 0}
+- {id: squad_6p7b_lora_bac0_s1, setting: squad_6p7b_lora, variant: bac0, train_set_seed: 1}
+- {id: squad_6p7b_lora_bac0_s2, setting: squad_6p7b_lora, variant: bac0, train_set_seed: 2}
+
+- {id: squad_qwen7b_lora_agc_mi001_s0, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_qwen7b_lora_agc_mi001_s1, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_qwen7b_lora_agc_mi001_s2, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_qwen7b_lora_agc_mi011_s0, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_qwen7b_lora_agc_mi011_s1, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_qwen7b_lora_agc_mi011_s2, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_qwen7b_lora_agc_mi033_s0, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_qwen7b_lora_agc_mi033_s1, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_qwen7b_lora_agc_mi033_s2, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_qwen7b_lora_agc_mi068_s0, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_qwen7b_lora_agc_mi068_s1, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_qwen7b_lora_agc_mi068_s2, setting: squad_qwen7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_qwen7b_lora_bac_mi001_s0, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_qwen7b_lora_bac_mi001_s1, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_qwen7b_lora_bac_mi001_s2, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_qwen7b_lora_bac_mi011_s0, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_qwen7b_lora_bac_mi011_s1, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_qwen7b_lora_bac_mi011_s2, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_qwen7b_lora_bac_mi033_s0, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_qwen7b_lora_bac_mi033_s1, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_qwen7b_lora_bac_mi033_s2, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_qwen7b_lora_bac_mi068_s0, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_qwen7b_lora_bac_mi068_s1, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_qwen7b_lora_bac_mi068_s2, setting: squad_qwen7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_qwen7b_lora_agc0_s0, setting: squad_qwen7b_lora, variant: agc0, train_set_seed: 0}
+- {id: squad_qwen7b_lora_agc0_s1, setting: squad_qwen7b_lora, variant: agc0, train_set_seed: 1}
+- {id: squad_qwen7b_lora_agc0_s2, setting: squad_qwen7b_lora, variant: agc0, train_set_seed: 2}
+- {id: squad_qwen7b_lora_bac0_s0, setting: squad_qwen7b_lora, variant: bac0, train_set_seed: 0}
+- {id: squad_qwen7b_lora_bac0_s1, setting: squad_qwen7b_lora, variant: bac0, train_set_seed: 1}
+- {id: squad_qwen7b_lora_bac0_s2, setting: squad_qwen7b_lora, variant: bac0, train_set_seed: 2}
+
+- {id: squad_llama8b_lora_agc_mi001_s0, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_llama8b_lora_agc_mi001_s1, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_llama8b_lora_agc_mi001_s2, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_llama8b_lora_agc_mi011_s0, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_llama8b_lora_agc_mi011_s1, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_llama8b_lora_agc_mi011_s2, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_llama8b_lora_agc_mi033_s0, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_llama8b_lora_agc_mi033_s1, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_llama8b_lora_agc_mi033_s2, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_llama8b_lora_agc_mi068_s0, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_llama8b_lora_agc_mi068_s1, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_llama8b_lora_agc_mi068_s2, setting: squad_llama8b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_llama8b_lora_bac_mi001_s0, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: squad_llama8b_lora_bac_mi001_s1, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: squad_llama8b_lora_bac_mi001_s2, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: squad_llama8b_lora_bac_mi011_s0, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: squad_llama8b_lora_bac_mi011_s1, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: squad_llama8b_lora_bac_mi011_s2, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: squad_llama8b_lora_bac_mi033_s0, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: squad_llama8b_lora_bac_mi033_s1, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: squad_llama8b_lora_bac_mi033_s2, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: squad_llama8b_lora_bac_mi068_s0, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: squad_llama8b_lora_bac_mi068_s1, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: squad_llama8b_lora_bac_mi068_s2, setting: squad_llama8b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: squad_llama8b_lora_agc0_s0, setting: squad_llama8b_lora, variant: agc0, train_set_seed: 0}
+- {id: squad_llama8b_lora_agc0_s1, setting: squad_llama8b_lora, variant: agc0, train_set_seed: 1}
+- {id: squad_llama8b_lora_agc0_s2, setting: squad_llama8b_lora, variant: agc0, train_set_seed: 2}
+- {id: squad_llama8b_lora_bac0_s0, setting: squad_llama8b_lora, variant: bac0, train_set_seed: 0}
+- {id: squad_llama8b_lora_bac0_s1, setting: squad_llama8b_lora, variant: bac0, train_set_seed: 1}
+- {id: squad_llama8b_lora_bac0_s2, setting: squad_llama8b_lora, variant: bac0, train_set_seed: 2}
+
+- {id: sst2_1p3b_ft_agc_mi001_s0, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc_mi001_s1, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_1p3b_ft_agc_mi001_s2, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_1p3b_ft_agc_mi011_s0, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc_mi011_s1, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_1p3b_ft_agc_mi011_s2, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_1p3b_ft_agc_mi033_s0, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc_mi033_s1, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_1p3b_ft_agc_mi033_s2, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_1p3b_ft_agc_mi068_s0, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc_mi068_s1, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_1p3b_ft_agc_mi068_s2, setting: sst2_1p3b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_1p3b_ft_bac_mi001_s0, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_1p3b_ft_bac_mi001_s1, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_1p3b_ft_bac_mi001_s2, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_1p3b_ft_bac_mi011_s0, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_1p3b_ft_bac_mi011_s1, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_1p3b_ft_bac_mi011_s2, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_1p3b_ft_bac_mi033_s0, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_ft_bac_mi033_s1, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_1p3b_ft_bac_mi033_s2, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_1p3b_ft_bac_mi068_s0, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_1p3b_ft_bac_mi068_s1, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_1p3b_ft_bac_mi068_s2, setting: sst2_1p3b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_1p3b_ft_agc0_s0, setting: sst2_1p3b_ft, variant: agc0, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_s1, setting: sst2_1p3b_ft, variant: agc0, train_set_seed: 1}
+- {id: sst2_1p3b_ft_agc0_s2, setting: sst2_1p3b_ft, variant: agc0, train_set_seed: 2}
+- {id: sst2_1p3b_ft_bac0_s0, setting: sst2_1p3b_ft, variant: bac0, train_set_seed: 0}
+- {id: sst2_1p3b_ft_bac0_s1, setting: sst2_1p3b_ft, variant: bac0, train_set_seed: 1}
+- {id: sst2_1p3b_ft_bac0_s2, setting: sst2_1p3b_ft, variant: bac0, train_set_seed: 2}
+
+- {id: sst2_6p7b_ft_agc_mi001_s0, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc_mi001_s1, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_6p7b_ft_agc_mi001_s2, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_6p7b_ft_agc_mi011_s0, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc_mi011_s1, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_6p7b_ft_agc_mi011_s2, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_6p7b_ft_agc_mi033_s0, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc_mi033_s1, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_6p7b_ft_agc_mi033_s2, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_6p7b_ft_agc_mi068_s0, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc_mi068_s1, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_6p7b_ft_agc_mi068_s2, setting: sst2_6p7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_6p7b_ft_bac_mi001_s0, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_6p7b_ft_bac_mi001_s1, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_6p7b_ft_bac_mi001_s2, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_6p7b_ft_bac_mi011_s0, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_6p7b_ft_bac_mi011_s1, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_6p7b_ft_bac_mi011_s2, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_6p7b_ft_bac_mi033_s0, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_ft_bac_mi033_s1, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_6p7b_ft_bac_mi033_s2, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_6p7b_ft_bac_mi068_s0, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_6p7b_ft_bac_mi068_s1, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_6p7b_ft_bac_mi068_s2, setting: sst2_6p7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_6p7b_ft_agc0_s0, setting: sst2_6p7b_ft, variant: agc0, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc0_s1, setting: sst2_6p7b_ft, variant: agc0, train_set_seed: 1}
+- {id: sst2_6p7b_ft_agc0_s2, setting: sst2_6p7b_ft, variant: agc0, train_set_seed: 2}
+- {id: sst2_6p7b_ft_bac0_s0, setting: sst2_6p7b_ft, variant: bac0, train_set_seed: 0}
+- {id: sst2_6p7b_ft_bac0_s1, setting: sst2_6p7b_ft, variant: bac0, train_set_seed: 1}
+- {id: sst2_6p7b_ft_bac0_s2, setting: sst2_6p7b_ft, variant: bac0, train_set_seed: 2}
+
+- {id: sst2_qwen7b_ft_agc_mi001_s0, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_agc_mi001_s1, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_qwen7b_ft_agc_mi001_s2, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_qwen7b_ft_agc_mi011_s0, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_agc_mi011_s1, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_qwen7b_ft_agc_mi011_s2, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_qwen7b_ft_agc_mi033_s0, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_agc_mi033_s1, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_qwen7b_ft_agc_mi033_s2, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_qwen7b_ft_agc_mi068_s0, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_agc_mi068_s1, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_qwen7b_ft_agc_mi068_s2, setting: sst2_qwen7b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_qwen7b_ft_bac_mi001_s0, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_bac_mi001_s1, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_qwen7b_ft_bac_mi001_s2, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_qwen7b_ft_bac_mi011_s0, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_bac_mi011_s1, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_qwen7b_ft_bac_mi011_s2, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_qwen7b_ft_bac_mi033_s0, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_bac_mi033_s1, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_qwen7b_ft_bac_mi033_s2, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_qwen7b_ft_bac_mi068_s0, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_bac_mi068_s1, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_qwen7b_ft_bac_mi068_s2, setting: sst2_qwen7b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_qwen7b_ft_agc0_s0, setting: sst2_qwen7b_ft, variant: agc0, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_agc0_s1, setting: sst2_qwen7b_ft, variant: agc0, train_set_seed: 1}
+- {id: sst2_qwen7b_ft_agc0_s2, setting: sst2_qwen7b_ft, variant: agc0, train_set_seed: 2}
+- {id: sst2_qwen7b_ft_bac0_s0, setting: sst2_qwen7b_ft, variant: bac0, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_bac0_s1, setting: sst2_qwen7b_ft, variant: bac0, train_set_seed: 1}
+- {id: sst2_qwen7b_ft_bac0_s2, setting: sst2_qwen7b_ft, variant: bac0, train_set_seed: 2}
+
+- {id: sst2_llama8b_ft_agc_mi001_s0, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_llama8b_ft_agc_mi001_s1, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_llama8b_ft_agc_mi001_s2, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_llama8b_ft_agc_mi011_s0, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_llama8b_ft_agc_mi011_s1, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_llama8b_ft_agc_mi011_s2, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_llama8b_ft_agc_mi033_s0, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_llama8b_ft_agc_mi033_s1, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_llama8b_ft_agc_mi033_s2, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_llama8b_ft_agc_mi068_s0, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_llama8b_ft_agc_mi068_s1, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_llama8b_ft_agc_mi068_s2, setting: sst2_llama8b_ft, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_llama8b_ft_bac_mi001_s0, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_llama8b_ft_bac_mi001_s1, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_llama8b_ft_bac_mi001_s2, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_llama8b_ft_bac_mi011_s0, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_llama8b_ft_bac_mi011_s1, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_llama8b_ft_bac_mi011_s2, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_llama8b_ft_bac_mi033_s0, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_llama8b_ft_bac_mi033_s1, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_llama8b_ft_bac_mi033_s2, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_llama8b_ft_bac_mi068_s0, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_llama8b_ft_bac_mi068_s1, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_llama8b_ft_bac_mi068_s2, setting: sst2_llama8b_ft, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_llama8b_ft_agc0_s0, setting: sst2_llama8b_ft, variant: agc0, train_set_seed: 0}
+- {id: sst2_llama8b_ft_agc0_s1, setting: sst2_llama8b_ft, variant: agc0, train_set_seed: 1}
+- {id: sst2_llama8b_ft_agc0_s2, setting: sst2_llama8b_ft, variant: agc0, train_set_seed: 2}
+- {id: sst2_llama8b_ft_bac0_s0, setting: sst2_llama8b_ft, variant: bac0, train_set_seed: 0}
+- {id: sst2_llama8b_ft_bac0_s1, setting: sst2_llama8b_ft, variant: bac0, train_set_seed: 1}
+- {id: sst2_llama8b_ft_bac0_s2, setting: sst2_llama8b_ft, variant: bac0, train_set_seed: 2}
+
+- {id: sst2_1p3b_lora_agc_mi001_s0, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi001_s1, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_1p3b_lora_agc_mi001_s2, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_1p3b_lora_agc_mi011_s0, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi011_s1, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_1p3b_lora_agc_mi011_s2, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_1p3b_lora_agc_mi033_s0, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_s1, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_1p3b_lora_agc_mi033_s2, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_1p3b_lora_agc_mi068_s0, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi068_s1, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_1p3b_lora_agc_mi068_s2, setting: sst2_1p3b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_1p3b_lora_bac_mi001_s0, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_1p3b_lora_bac_mi001_s1, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_1p3b_lora_bac_mi001_s2, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_1p3b_lora_bac_mi011_s0, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_1p3b_lora_bac_mi011_s1, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_1p3b_lora_bac_mi011_s2, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_1p3b_lora_bac_mi033_s0, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_bac_mi033_s1, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_1p3b_lora_bac_mi033_s2, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_1p3b_lora_bac_mi068_s0, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_1p3b_lora_bac_mi068_s1, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_1p3b_lora_bac_mi068_s2, setting: sst2_1p3b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_1p3b_lora_agc0_s0, setting: sst2_1p3b_lora, variant: agc0, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc0_s1, setting: sst2_1p3b_lora, variant: agc0, train_set_seed: 1}
+- {id: sst2_1p3b_lora_agc0_s2, setting: sst2_1p3b_lora, variant: agc0, train_set_seed: 2}
+- {id: sst2_1p3b_lora_bac0_s0, setting: sst2_1p3b_lora, variant: bac0, train_set_seed: 0}
+- {id: sst2_1p3b_lora_bac0_s1, setting: sst2_1p3b_lora, variant: bac0, train_set_seed: 1}
+- {id: sst2_1p3b_lora_bac0_s2, setting: sst2_1p3b_lora, variant: bac0, train_set_seed: 2}
+
+- {id: sst2_6p7b_lora_agc_mi001_s0, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc_mi001_s1, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_6p7b_lora_agc_mi001_s2, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_6p7b_lora_agc_mi011_s0, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc_mi011_s1, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_6p7b_lora_agc_mi011_s2, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_6p7b_lora_agc_mi033_s0, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc_mi033_s1, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_6p7b_lora_agc_mi033_s2, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_6p7b_lora_agc_mi068_s0, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc_mi068_s1, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_6p7b_lora_agc_mi068_s2, setting: sst2_6p7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_6p7b_lora_bac_mi001_s0, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_6p7b_lora_bac_mi001_s1, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_6p7b_lora_bac_mi001_s2, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_6p7b_lora_bac_mi011_s0, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_6p7b_lora_bac_mi011_s1, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_6p7b_lora_bac_mi011_s2, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_6p7b_lora_bac_mi033_s0, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_6p7b_lora_bac_mi033_s1, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_6p7b_lora_bac_mi033_s2, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_6p7b_lora_bac_mi068_s0, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_6p7b_lora_bac_mi068_s1, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_6p7b_lora_bac_mi068_s2, setting: sst2_6p7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_6p7b_lora_agc0_s0, setting: sst2_6p7b_lora, variant: agc0, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc0_s1, setting: sst2_6p7b_lora, variant: agc0, train_set_seed: 1}
+- {id: sst2_6p7b_lora_agc0_s2, setting: sst2_6p7b_lora, variant: agc0, train_set_seed: 2}
+- {id: sst2_6p7b_lora_bac0_s0, setting: sst2_6p7b_lora, variant: bac0, train_set_seed: 0}
+- {id: sst2_6p7b_lora_bac0_s1, setting: sst2_6p7b_lora, variant: bac0, train_set_seed: 1}
+- {id: sst2_6p7b_lora_bac0_s2, setting: sst2_6p7b_lora, variant: bac0, train_set_seed: 2}
+
+- {id: sst2_qwen7b_lora_agc_mi001_s0, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_agc_mi001_s1, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_qwen7b_lora_agc_mi001_s2, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_qwen7b_lora_agc_mi011_s0, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_agc_mi011_s1, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_qwen7b_lora_agc_mi011_s2, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_qwen7b_lora_agc_mi033_s0, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_agc_mi033_s1, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_qwen7b_lora_agc_mi033_s2, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_qwen7b_lora_agc_mi068_s0, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_agc_mi068_s1, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_qwen7b_lora_agc_mi068_s2, setting: sst2_qwen7b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_qwen7b_lora_bac_mi001_s0, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_bac_mi001_s1, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_qwen7b_lora_bac_mi001_s2, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_qwen7b_lora_bac_mi011_s0, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_bac_mi011_s1, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_qwen7b_lora_bac_mi011_s2, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_qwen7b_lora_bac_mi033_s0, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_bac_mi033_s1, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_qwen7b_lora_bac_mi033_s2, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_qwen7b_lora_bac_mi068_s0, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_bac_mi068_s1, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_qwen7b_lora_bac_mi068_s2, setting: sst2_qwen7b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_qwen7b_lora_agc0_s0, setting: sst2_qwen7b_lora, variant: agc0, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_agc0_s1, setting: sst2_qwen7b_lora, variant: agc0, train_set_seed: 1}
+- {id: sst2_qwen7b_lora_agc0_s2, setting: sst2_qwen7b_lora, variant: agc0, train_set_seed: 2}
+- {id: sst2_qwen7b_lora_bac0_s0, setting: sst2_qwen7b_lora, variant: bac0, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_bac0_s1, setting: sst2_qwen7b_lora, variant: bac0, train_set_seed: 1}
+- {id: sst2_qwen7b_lora_bac0_s2, setting: sst2_qwen7b_lora, variant: bac0, train_set_seed: 2}
+
+- {id: sst2_llama8b_lora_agc_mi001_s0, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_llama8b_lora_agc_mi001_s1, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_llama8b_lora_agc_mi001_s2, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_llama8b_lora_agc_mi011_s0, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_llama8b_lora_agc_mi011_s1, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_llama8b_lora_agc_mi011_s2, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_llama8b_lora_agc_mi033_s0, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_llama8b_lora_agc_mi033_s1, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_llama8b_lora_agc_mi033_s2, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_llama8b_lora_agc_mi068_s0, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_llama8b_lora_agc_mi068_s1, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_llama8b_lora_agc_mi068_s2, setting: sst2_llama8b_lora, variant: agc, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_llama8b_lora_bac_mi001_s0, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 0}
+- {id: sst2_llama8b_lora_bac_mi001_s1, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 1}
+- {id: sst2_llama8b_lora_bac_mi001_s2, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.01, train_set_seed: 2}
+- {id: sst2_llama8b_lora_bac_mi011_s0, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 0}
+- {id: sst2_llama8b_lora_bac_mi011_s1, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 1}
+- {id: sst2_llama8b_lora_bac_mi011_s2, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.11, train_set_seed: 2}
+- {id: sst2_llama8b_lora_bac_mi033_s0, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_llama8b_lora_bac_mi033_s1, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 1}
+- {id: sst2_llama8b_lora_bac_mi033_s2, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.33, train_set_seed: 2}
+- {id: sst2_llama8b_lora_bac_mi068_s0, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 0}
+- {id: sst2_llama8b_lora_bac_mi068_s1, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 1}
+- {id: sst2_llama8b_lora_bac_mi068_s2, setting: sst2_llama8b_lora, variant: bac, pac_mi: 0.68, train_set_seed: 2}
+- {id: sst2_llama8b_lora_agc0_s0, setting: sst2_llama8b_lora, variant: agc0, train_set_seed: 0}
+- {id: sst2_llama8b_lora_agc0_s1, setting: sst2_llama8b_lora, variant: agc0, train_set_seed: 1}
+- {id: sst2_llama8b_lora_agc0_s2, setting: sst2_llama8b_lora, variant: agc0, train_set_seed: 2}
+- {id: sst2_llama8b_lora_bac0_s0, setting: sst2_llama8b_lora, variant: bac0, train_set_seed: 0}
+- {id: sst2_llama8b_lora_bac0_s1, setting: sst2_llama8b_lora, variant: bac0, train_set_seed: 1}
+- {id: sst2_llama8b_lora_bac0_s2, setting: sst2_llama8b_lora, variant: bac0, train_set_seed: 2}

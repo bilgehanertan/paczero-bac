@@ -1,0 +1,28 @@
+# In-house DPZero and DP-AggZO. Feeds app:dpaggzo-parity, app:vs-dp, sec:headline, tab:dp-cliff, tab:headline, tab:headline-budget.
+- {id: squad_1p3b_ft_dpaggzo_eps2_K16_lr1em5_T977_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SQuAD, LR: 1.0e-5, DP_CLIP: 7.5, N: 16, STEPS: 977, DP_EPS: 2.0}
+- {id: squad_1p3b_ft_dpaggzo_eps2_K64_lr6em5_T244_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SQuAD, LR: 6.0e-5, DP_CLIP: 2.0, N: 64, STEPS: 244, DP_EPS: 2.0}
+- {id: squad_llama8b_ft_dpaggzo_eps2_K16_T1000_s0, variant: dpaggzo, MODEL: meta-llama/Llama-3.1-8B, TASK: SQuAD, LR: 1.0e-5, DP_CLIP: 7.5, N: 16, STEPS: 1000, DP_EPS: 2.0}
+- {id: squad_llama8b_ft_dpaggzo_eps6_K16_T1000_s0, variant: dpaggzo, MODEL: meta-llama/Llama-3.1-8B, TASK: SQuAD, LR: 1.0e-5, DP_CLIP: 7.5, N: 16, STEPS: 1000, DP_EPS: 6.0}
+- {id: squad_llama8b_ft_dpzero_eps2_T1000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SQuAD, LR: 1.0e-5, DP_CLIP: 7.5, STEPS: 1000, DP_EPS: 2.0}
+- {id: squad_llama8b_ft_dpzero_eps6_T1000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SQuAD, LR: 1.0e-5, DP_CLIP: 7.5, STEPS: 1000, DP_EPS: 6.0}
+
+- {id: sst2_1p3b_ft_dpaggzo_eps02_K64_T244_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 64, STEPS: 244, DP_EPS: 0.2}
+- {id: sst2_1p3b_ft_dpaggzo_eps03_K64_T244_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 64, STEPS: 244, DP_EPS: 0.3}
+- {id: sst2_1p3b_ft_dpaggzo_eps05_K64_T244_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 64, STEPS: 244, DP_EPS: 0.5}
+- {id: sst2_1p3b_ft_dpaggzo_eps1_K64_T244_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 64, STEPS: 244, DP_EPS: 1.0}
+- {id: sst2_1p3b_ft_dpaggzo_eps2_K64_T244_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 64, STEPS: 244, DP_EPS: 2.0}
+- {id: sst2_1p3b_ft_dpaggzo_eps02_K64_T1000_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 64, STEPS: 1000, DP_EPS: 0.2}
+- {id: sst2_1p3b_ft_dpaggzo_eps03_K64_T1000_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 64, STEPS: 1000, DP_EPS: 0.3}
+- {id: sst2_1p3b_ft_dpaggzo_eps05_K64_T1000_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 64, STEPS: 1000, DP_EPS: 0.5}
+- {id: sst2_1p3b_ft_dpaggzo_eps1_K64_T1000_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 64, STEPS: 1000, DP_EPS: 1.0}
+- {id: sst2_1p3b_ft_dpaggzo_eps2_K64_T1000_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 64, STEPS: 1000, DP_EPS: 2.0}
+- {id: sst2_1p3b_ft_dpaggzo_eps02_K64_T2000_s0, variant: dpaggzo, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 64, STEPS: 2000, DP_EPS: 0.2}
+- {id: sst2_1p3b_ft_dpzero_eps02_T20000_s0, variant: dpzero, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 0.2}
+- {id: sst2_1p3b_ft_dpzero_eps03_T20000_s0, variant: dpzero, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 0.3}
+- {id: sst2_1p3b_ft_dpzero_eps05_T20000_s0, variant: dpzero, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 0.5}
+- {id: sst2_1p3b_ft_dpzero_eps1_T20000_s0, variant: dpzero, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 1.0}
+- {id: sst2_1p3b_ft_dpzero_eps2_T20000_s0, variant: dpzero, MODEL: facebook/opt-1.3b, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 2.0}
+- {id: sst2_llama8b_ft_dpaggzo_eps2_K16_T1000_s0, variant: dpaggzo, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 16, STEPS: 1000, DP_EPS: 2.0}
+- {id: sst2_llama8b_ft_dpaggzo_eps6_K16_T1000_s0, variant: dpaggzo, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 16, STEPS: 1000, DP_EPS: 6.0}
+- {id: sst2_llama8b_ft_dpzero_eps2_T20000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 1.0e-6, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 2.0}
+- {id: sst2_llama8b_ft_dpzero_eps6_T20000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 1.0e-6, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 6.0}

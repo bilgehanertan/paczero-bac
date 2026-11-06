@@ -1,0 +1,30 @@
+diff --git a/opt/src/utils.py b/opt/src/utils.py
+index c89c766..3d58ea6 100644
+--- a/opt/src/utils.py
++++ b/opt/src/utils.py
+@@ -110,6 +110,16 @@ def forward_wrap_with_option_len_dpzero(self, input_ids=None, labels=None, optio
+     )
+ 
+ 
++def tokenizer_prepends_bos(tokenizer):
++    cached = getattr(tokenizer, "_pac_prepends_bos", None)
++    if cached is not None:
++        return cached
++    bos = tokenizer.bos_token_id
++    ids = tokenizer.encode("x") if bos is not None else []
++    tokenizer._pac_prepends_bos = bool(ids) and ids[0] == bos
++    return tokenizer._pac_prepends_bos
++
++
+ def encode_prompt(task, template, train_samples, eval_sample, tokenizer, max_length, sfc=False, icl_sfc=False, generation=False, generation_with_gold=False, max_new_tokens=None):
+     """
+     Encode prompts for eval_sample
+@@ -172,7 +182,7 @@ def encode_prompt(task, template, train_samples, eval_sample, tokenizer, max_len
+ 
+     if any([len(encoding) > max_length for encoding in encodings]):
+         logger.warn("Exceed max length")
+-    if tokenizer.add_bos_token:
++    if tokenizer_prepends_bos(tokenizer):
+         encodings = [encoding[0:1] + encoding[1:][-(max_length-1):] for encoding in encodings]  
+     else:
+         encodings = [encoding[-max_length:] for encoding in encodings]  

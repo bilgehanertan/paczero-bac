@@ -1,0 +1,13 @@
+diff --git a/opt/examples/dpaggzo.sh b/opt/examples/dpaggzo.sh
+index f342e88..fe141bf 100644
+--- a/opt/examples/dpaggzo.sh
++++ b/opt/examples/dpaggzo.sh
+@@ -27,7 +27,7 @@ if [ "$MODE" == "prefix" ]; then
+ elif [ "$MODE" == "lora" ]; then
+     EXTRA_ARGS="--lora"
+ fi
+-TAG=dpzero-$MODE-$STEPS-$DP_SAMPLE_RATE-$LR-$EPS-$SEED-$DP_EPS-$DP_CLIP
++TAG=${TAG:-dpzero-$MODE-$STEPS-$DP_SAMPLE_RATE-$LR-$EPS-$SEED-$DP_EPS-$DP_CLIP}
+ 
+ TASK_ARGS=""
+ case $TASK in

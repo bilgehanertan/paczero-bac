@@ -1,0 +1,161 @@
+# The 16 settings of tab:pool-recipes, task x model x track.
+
+squad_1p3b_ft:
+  model_name: facebook/opt-1.3b
+  task_name: SQuAD
+  pac_zo_third_pass: false
+  pac_trim_pad: true
+  pac_sort_by_len: true
+  learning_rate: 1.0e-4
+  pac_clip: 1000.0
+  max_steps: 1000
+
+squad_6p7b_ft:
+  model_name: facebook/opt-6.7b
+  task_name: SQuAD
+  pac_zo_third_pass: false
+  pac_trim_pad: true
+  pac_sort_by_len: true
+  learning_rate: 1.0e-4
+  pac_clip: 250.0
+  max_steps: 1000
+
+squad_qwen7b_ft:
+  model_name: Qwen/Qwen2.5-7B
+  task_name: SQuAD
+  pac_sdpa_attention: true
+  pac_zo_third_pass: false
+  pac_trim_pad: true
+  pac_sort_by_len: true
+  learning_rate: 5.0e-5
+  pac_clip: 250.0
+  max_steps: 1000
+
+squad_llama8b_ft:
+  model_name: meta-llama/Llama-3.1-8B
+  task_name: SQuAD
+  pac_sdpa_attention: true
+  pac_zo_third_pass: false
+  pac_trim_pad: true
+  pac_sort_by_len: true
+  learning_rate: 5.0e-5
+  pac_clip: 250.0
+  max_steps: 1000
+
+squad_1p3b_lora:
+  model_name: facebook/opt-1.3b
+  task_name: SQuAD
+  lora: true
+  pac_zo_third_pass: false
+  pac_trim_pad: true
+  pac_sort_by_len: true
+  learning_rate: 1.0e-3
+  pac_clip: 10.0
+  max_steps: 1000
+
+squad_6p7b_lora:
+  model_name: facebook/opt-6.7b
+  task_name: SQuAD
+  lora: true
+  pac_zo_third_pass: false
+  pac_trim_pad: true
+  pac_sort_by_len: true
+  learning_rate: 1.0e-3
+  pac_clip: 10.0
+  max_steps: 1000
+
+squad_qwen7b_lora:
+  model_name: Qwen/Qwen2.5-7B
+  task_name: SQuAD
+  lora: true
+  pac_sdpa_attention: true
+  pac_zo_third_pass: false
+  pac_trim_pad: true
+  pac_sort_by_len: true
+  learning_rate: 1.0e-3
+  pac_clip: 25.0
+  max_steps: 1000
+
+squad_llama8b_lora:
+  model_name: meta-llama/Llama-3.1-8B
+  task_name: SQuAD
+  lora: true
+  pac_sdpa_attention: true
+  pac_zo_third_pass: false
+  pac_trim_pad: true
+  pac_sort_by_len: true
+  learning_rate: 1.0e-3
+  pac_clip: 25.0
+  max_steps: 1000
+
+sst2_1p3b_ft:
+  model_name: facebook/opt-1.3b
+  task_name: SST2
+  train_as_classification: true
+  learning_rate: 1.0e-4
+  pac_clip: 100.0
+  max_steps: 1000
+
+sst2_6p7b_ft:
+  model_name: facebook/opt-6.7b
+  task_name: SST2
+  train_as_classification: true
+  learning_rate: 1.0e-4
+  pac_clip: 100.0
+  max_steps: 1000
+
+sst2_qwen7b_ft:
+  model_name: Qwen/Qwen2.5-7B
+  task_name: SST2
+  train_as_classification: true
+  pac_sdpa_attention: true
+  learning_rate: 1.0e-4
+  pac_clip: 1000.0
+  max_steps: 1000
+
+sst2_llama8b_ft:
+  model_name: meta-llama/Llama-3.1-8B
+  task_name: SST2
+  train_as_classification: true
+  pac_sdpa_attention: true
+  learning_rate: 1.0e-4
+  pac_clip: 250.0
+  max_steps: 1000
+
+sst2_1p3b_lora:
+  model_name: facebook/opt-1.3b
+  task_name: SST2
+  train_as_classification: true
+  lora: true
+  learning_rate: 5.0e-4
+  pac_clip: 25.0
+  max_steps: 2000
+
+sst2_6p7b_lora:
+  model_name: facebook/opt-6.7b
+  task_name: SST2
+  train_as_classification: true
+  lora: true
+  learning_rate: 5.0e-4
+  pac_clip: 25.0
+  max_steps: 2000
+
+sst2_qwen7b_lora:
+  model_name: Qwen/Qwen2.5-7B
+  task_name: SST2
+  train_as_classification: true
+  lora: true
+  pac_sdpa_attention: true
+  learning_rate: 1.0e-3
+  pac_clip: 10.0
+  max_steps: 2000
+
+sst2_llama8b_lora:
+  model_name: meta-llama/Llama-3.1-8B
+  task_name: SST2
+  train_as_classification: true
+  lora: true
+  pac_sdpa_attention: true
+  learning_rate: 1.0e-3
+  pac_clip: 10.0
+  max_steps: 2000

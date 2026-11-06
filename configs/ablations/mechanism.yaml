@@ -1,0 +1,10 @@
+# Mechanism decomposition. Feeds tab:ablation.
+- {id: sst2_1p3b_lora_agcuniform_mi1em3_s0, setting: sst2_1p3b_lora, variant: agc_uniform, pac_mi: 1.0e-3, train_set_seed: 0}
+- {id: sst2_1p3b_lora_ref_quant_full_T1000_s0, setting: sst2_1p3b_lora, variant: nonprivate, max_steps: 1000, ablation: quant_full, train_set_seed: 0}
+- {id: sst2_1p3b_lora_ref_quant_half_T1000_s0, setting: sst2_1p3b_lora, variant: nonprivate, max_steps: 1000, ablation: quant_half, train_set_seed: 0}
+- {id: sst2_1p3b_lora_ref_raw_half_T1000_s0, setting: sst2_1p3b_lora, variant: nonprivate, max_steps: 1000, ablation: raw_half, train_set_seed: 0}
+- {id: sst2_1p3b_lora_ref_none_T2000_s0, setting: sst2_1p3b_lora, variant: nonprivate, train_set_seed: 0}
+- {id: sst2_1p3b_lora_ref_quant_full_T2000_s0, setting: sst2_1p3b_lora, variant: nonprivate, ablation: quant_full, train_set_seed: 0}
+- {id: sst2_1p3b_lora_ref_quant_half_T2000_s0, setting: sst2_1p3b_lora, variant: nonprivate, ablation: quant_half, train_set_seed: 0}
+- {id: sst2_1p3b_lora_ref_random_sign_T2000_s0, setting: sst2_1p3b_lora, variant: nonprivate, ablation: random_sign, train_set_seed: 0}
+- {id: sst2_1p3b_lora_ref_raw_half_T2000_s0, setting: sst2_1p3b_lora, variant: nonprivate, ablation: raw_half, train_set_seed: 0}

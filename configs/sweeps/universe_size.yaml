@@ -1,0 +1,13 @@
+# Universe-size sweep, N at M=128. Feeds tab:n-sweep.
+- {id: sst2_1p3b_lora_agc0_N500_lr1em3_T1000_s1, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, num_train: 500, per_device_train_batch_size: 500, train_set_seed: 1}
+- {id: sst2_1p3b_lora_agc0_N500_lr1em3_T1000_s2, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, num_train: 500, per_device_train_batch_size: 500, seed: 43, train_set_seed: 2}
+- {id: sst2_1p3b_lora_agc0_N500_lr1em3_T1000_s3, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, num_train: 500, per_device_train_batch_size: 500, seed: 44, train_set_seed: 3}
+- {id: sst2_1p3b_lora_agc0_N1000_lr1em3_T1000_s1, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, train_set_seed: 1}
+- {id: sst2_1p3b_lora_agc0_N1000_lr1em3_T1000_s2, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, seed: 43, train_set_seed: 2}
+- {id: sst2_1p3b_lora_agc0_N1000_lr1em3_T1000_s3, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, seed: 44, train_set_seed: 3}
+- {id: sst2_1p3b_lora_agc0_N2000_lr1em3_T1000_s1, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, num_train: 2000, per_device_train_batch_size: 2000, train_set_seed: 1}
+- {id: sst2_1p3b_lora_agc0_N2000_lr1em3_T1000_s2, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, num_train: 2000, per_device_train_batch_size: 2000, seed: 43, train_set_seed: 2}
+- {id: sst2_1p3b_lora_agc0_N2000_lr1em3_T1000_s3, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, num_train: 2000, per_device_train_batch_size: 2000, seed: 44, train_set_seed: 3}
+- {id: sst2_1p3b_lora_agc0_N4000_lr1em3_T1000_s1, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, num_train: 4000, per_device_train_batch_size: 4000, train_set_seed: 1}
+- {id: sst2_1p3b_lora_agc0_N4000_lr1em3_T1000_s2, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, num_train: 4000, per_device_train_batch_size: 4000, seed: 43, train_set_seed: 2}
+- {id: sst2_1p3b_lora_agc0_N4000_lr1em3_T1000_s3, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 1000, num_train: 4000, per_device_train_batch_size: 4000, seed: 44, train_set_seed: 3}

@@ -1,0 +1,105 @@
+# PACZero-AGC_0 learning-rate sweeps. Feeds tab:lr-sweeps, tab:zpl-lr-sweep.
+- {id: squad_1p3b_ft_agc0_lr1em5_s0, setting: squad_1p3b_ft, variant: agc0, learning_rate: 1.0e-5, train_set_seed: 0}
+- {id: squad_1p3b_ft_agc0_lr5em5_s0, setting: squad_1p3b_ft, variant: agc0, learning_rate: 5.0e-5, train_set_seed: 0}
+- {id: squad_1p3b_ft_agc0_lr1em4_s0, setting: squad_1p3b_ft, variant: agc0, train_set_seed: 0}
+- {id: squad_1p3b_ft_agc0_lr5em4_s0, setting: squad_1p3b_ft, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+- {id: squad_1p3b_ft_agc0_lr1em3_s0, setting: squad_1p3b_ft, variant: agc0, learning_rate: 1.0e-3, train_set_seed: 0}
+
+- {id: squad_6p7b_ft_agc0_lr1em5_s0, setting: squad_6p7b_ft, variant: agc0, learning_rate: 1.0e-5, train_set_seed: 0}
+- {id: squad_6p7b_ft_agc0_lr5em5_s0, setting: squad_6p7b_ft, variant: agc0, learning_rate: 5.0e-5, train_set_seed: 0}
+- {id: squad_6p7b_ft_agc0_lr1em4_s0, setting: squad_6p7b_ft, variant: agc0, train_set_seed: 0}
+- {id: squad_6p7b_ft_agc0_lr5em4_s0, setting: squad_6p7b_ft, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+- {id: squad_6p7b_ft_agc0_lr1em3_s0, setting: squad_6p7b_ft, variant: agc0, learning_rate: 1.0e-3, train_set_seed: 0}
+
+- {id: squad_qwen7b_ft_agc0_lr1em5_s0, setting: squad_qwen7b_ft, variant: agc0, learning_rate: 1.0e-5, train_set_seed: 0}
+- {id: squad_qwen7b_ft_agc0_lr5em5_s0, setting: squad_qwen7b_ft, variant: agc0, train_set_seed: 0}
+- {id: squad_qwen7b_ft_agc0_lr1em4_s0, setting: squad_qwen7b_ft, variant: agc0, learning_rate: 1.0e-4, train_set_seed: 0}
+- {id: squad_qwen7b_ft_agc0_lr5em4_s0, setting: squad_qwen7b_ft, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+- {id: squad_qwen7b_ft_agc0_lr1em3_s0, setting: squad_qwen7b_ft, variant: agc0, learning_rate: 1.0e-3, train_set_seed: 0}
+
+- {id: squad_llama8b_ft_agc0_lr1em5_s0, setting: squad_llama8b_ft, variant: agc0, learning_rate: 1.0e-5, train_set_seed: 0}
+- {id: squad_llama8b_ft_agc0_lr5em5_s0, setting: squad_llama8b_ft, variant: agc0, train_set_seed: 0}
+- {id: squad_llama8b_ft_agc0_lr1em4_s0, setting: squad_llama8b_ft, variant: agc0, learning_rate: 1.0e-4, train_set_seed: 0}
+- {id: squad_llama8b_ft_agc0_lr5em4_s0, setting: squad_llama8b_ft, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+- {id: squad_llama8b_ft_agc0_lr1em3_s0, setting: squad_llama8b_ft, variant: agc0, learning_rate: 1.0e-3, train_set_seed: 0}
+
+- {id: squad_1p3b_lora_agc0_lr1em4_s0, setting: squad_1p3b_lora, variant: agc0, learning_rate: 1.0e-4, train_set_seed: 0}
+- {id: squad_1p3b_lora_agc0_lr5em4_s0, setting: squad_1p3b_lora, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+- {id: squad_1p3b_lora_agc0_lr1em3_s0, setting: squad_1p3b_lora, variant: agc0, train_set_seed: 0}
+- {id: squad_1p3b_lora_agc0_lr2em3_s0, setting: squad_1p3b_lora, variant: agc0, learning_rate: 2.0e-3, train_set_seed: 0}
+- {id: squad_1p3b_lora_agc0_lr4em3_s0, setting: squad_1p3b_lora, variant: agc0, learning_rate: 4.0e-3, train_set_seed: 0}
+- {id: squad_1p3b_lora_agc0_lr8em3_s0, setting: squad_1p3b_lora, variant: agc0, learning_rate: 8.0e-3, train_set_seed: 0}
+
+- {id: squad_6p7b_lora_agc0_lr1em4_s0, setting: squad_6p7b_lora, variant: agc0, learning_rate: 1.0e-4, train_set_seed: 0}
+- {id: squad_6p7b_lora_agc0_lr5em4_s0, setting: squad_6p7b_lora, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+- {id: squad_6p7b_lora_agc0_lr1em3_s0, setting: squad_6p7b_lora, variant: agc0, train_set_seed: 0}
+- {id: squad_6p7b_lora_agc0_lr2em3_s0, setting: squad_6p7b_lora, variant: agc0, learning_rate: 2.0e-3, train_set_seed: 0}
+- {id: squad_6p7b_lora_agc0_lr4em3_s0, setting: squad_6p7b_lora, variant: agc0, learning_rate: 4.0e-3, train_set_seed: 0}
+- {id: squad_6p7b_lora_agc0_lr8em3_s0, setting: squad_6p7b_lora, variant: agc0, learning_rate: 8.0e-3, train_set_seed: 0}
+
+- {id: squad_qwen7b_lora_agc0_lr1em4_s0, setting: squad_qwen7b_lora, variant: agc0, learning_rate: 1.0e-4, train_set_seed: 0}
+- {id: squad_qwen7b_lora_agc0_lr5em4_s0, setting: squad_qwen7b_lora, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+- {id: squad_qwen7b_lora_agc0_lr1em3_s0, setting: squad_qwen7b_lora, variant: agc0, train_set_seed: 0}
+- {id: squad_qwen7b_lora_agc0_lr2em3_s0, setting: squad_qwen7b_lora, variant: agc0, learning_rate: 2.0e-3, train_set_seed: 0}
+- {id: squad_qwen7b_lora_agc0_lr4em3_s0, setting: squad_qwen7b_lora, variant: agc0, learning_rate: 4.0e-3, train_set_seed: 0}
+- {id: squad_qwen7b_lora_agc0_lr8em3_s0, setting: squad_qwen7b_lora, variant: agc0, learning_rate: 8.0e-3, train_set_seed: 0}
+
+- {id: squad_llama8b_lora_agc0_lr1em4_s0, setting: squad_llama8b_lora, variant: agc0, learning_rate: 1.0e-4, train_set_seed: 0}
+- {id: squad_llama8b_lora_agc0_lr5em4_s0, setting: squad_llama8b_lora, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+- {id: squad_llama8b_lora_agc0_lr1em3_s0, setting: squad_llama8b_lora, variant: agc0, train_set_seed: 0}
+- {id: squad_llama8b_lora_agc0_lr2em3_s0, setting: squad_llama8b_lora, variant: agc0, learning_rate: 2.0e-3, train_set_seed: 0}
+- {id: squad_llama8b_lora_agc0_lr4em3_s0, setting: squad_llama8b_lora, variant: agc0, learning_rate: 4.0e-3, train_set_seed: 0}
+- {id: squad_llama8b_lora_agc0_lr8em3_s0, setting: squad_llama8b_lora, variant: agc0, learning_rate: 8.0e-3, train_set_seed: 0}
+
+- {id: sst2_1p3b_ft_agc0_c100_lr5em5_s0, setting: sst2_1p3b_ft, variant: agc0, learning_rate: 5.0e-5, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_c1000_lr5em5_s0, setting: sst2_1p3b_ft, variant: agc0, learning_rate: 5.0e-5, pac_clip: 1000.0, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_c100_lr1em4_s0, setting: sst2_1p3b_ft, variant: agc0, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_c1000_lr1em4_s0, setting: sst2_1p3b_ft, variant: agc0, pac_clip: 1000.0, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_c1e9_lr1em4_s0, setting: sst2_1p3b_ft, variant: agc0, pac_clip: 1.0e+9, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_c100_lr5em4_s0, setting: sst2_1p3b_ft, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_c1000_lr5em4_s0, setting: sst2_1p3b_ft, variant: agc0, learning_rate: 5.0e-4, pac_clip: 1000.0, train_set_seed: 0}
+
+- {id: sst2_6p7b_ft_agc0_lr5em6_s0, setting: sst2_6p7b_ft, variant: agc0, learning_rate: 5.0e-6, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc0_lr1em5_s0, setting: sst2_6p7b_ft, variant: agc0, learning_rate: 1.0e-5, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc0_lr5em5_s0, setting: sst2_6p7b_ft, variant: agc0, learning_rate: 5.0e-5, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc0_lr1em4_s0, setting: sst2_6p7b_ft, variant: agc0, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc0_lr5em4_s0, setting: sst2_6p7b_ft, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+
+- {id: sst2_qwen7b_ft_agc0_lr5em5_s0, setting: sst2_qwen7b_ft, variant: agc0, learning_rate: 5.0e-5, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_agc0_lr1em4_s0, setting: sst2_qwen7b_ft, variant: agc0, train_set_seed: 0}
+- {id: sst2_qwen7b_ft_agc0_lr5em4_s0, setting: sst2_qwen7b_ft, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+
+- {id: sst2_llama8b_ft_agc0_lr5em6_s0, setting: sst2_llama8b_ft, variant: agc0, learning_rate: 5.0e-6, train_set_seed: 0}
+- {id: sst2_llama8b_ft_agc0_lr1em5_s0, setting: sst2_llama8b_ft, variant: agc0, learning_rate: 1.0e-5, train_set_seed: 0}
+- {id: sst2_llama8b_ft_agc0_lr5em5_s0, setting: sst2_llama8b_ft, variant: agc0, learning_rate: 5.0e-5, train_set_seed: 0}
+- {id: sst2_llama8b_ft_agc0_lr1em4_s0, setting: sst2_llama8b_ft, variant: agc0, train_set_seed: 0}
+- {id: sst2_llama8b_ft_agc0_lr5em4_s0, setting: sst2_llama8b_ft, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+
+- {id: sst2_1p3b_lora_agc0_c25_lr1em4_s0, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-4, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc0_c1e9_lr2em4_s0, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 2.0e-4, pac_clip: 1.0e+9, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc0_c25_lr5em4_s0, setting: sst2_1p3b_lora, variant: agc0, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc0_c1e9_lr5em4_s0, setting: sst2_1p3b_lora, variant: agc0, pac_clip: 1.0e+9, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc0_c25_lr1em3_s0, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc0_c25_lr2em3_s0, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 2.0e-3, train_set_seed: 0}
+
+- {id: sst2_6p7b_lora_agc0_lr1em4_s0, setting: sst2_6p7b_lora, variant: agc0, learning_rate: 1.0e-4, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc0_lr2em4_s0, setting: sst2_6p7b_lora, variant: agc0, learning_rate: 2.0e-4, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc0_lr5em4_s0, setting: sst2_6p7b_lora, variant: agc0, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc0_lr1em3_s0, setting: sst2_6p7b_lora, variant: agc0, learning_rate: 1.0e-3, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc0_lr2em3_s0, setting: sst2_6p7b_lora, variant: agc0, learning_rate: 2.0e-3, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc0_lr4em3_s0, setting: sst2_6p7b_lora, variant: agc0, learning_rate: 4.0e-3, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc0_lr8em3_s0, setting: sst2_6p7b_lora, variant: agc0, learning_rate: 8.0e-3, train_set_seed: 0}
+
+- {id: sst2_qwen7b_lora_agc0_lr5em4_s0, setting: sst2_qwen7b_lora, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_agc0_lr1em3_s0, setting: sst2_qwen7b_lora, variant: agc0, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_agc0_lr2em3_s0, setting: sst2_qwen7b_lora, variant: agc0, learning_rate: 2.0e-3, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_agc0_lr4em3_s0, setting: sst2_qwen7b_lora, variant: agc0, learning_rate: 4.0e-3, train_set_seed: 0}
+- {id: sst2_qwen7b_lora_agc0_lr8em3_s0, setting: sst2_qwen7b_lora, variant: agc0, learning_rate: 8.0e-3, train_set_seed: 0}
+
+- {id: sst2_llama8b_lora_agc0_lr1em4_s0, setting: sst2_llama8b_lora, variant: agc0, learning_rate: 1.0e-4, train_set_seed: 0}
+- {id: sst2_llama8b_lora_agc0_lr2em4_s0, setting: sst2_llama8b_lora, variant: agc0, learning_rate: 2.0e-4, train_set_seed: 0}
+- {id: sst2_llama8b_lora_agc0_lr5em4_s0, setting: sst2_llama8b_lora, variant: agc0, learning_rate: 5.0e-4, train_set_seed: 0}
+- {id: sst2_llama8b_lora_agc0_lr1em3_s0, setting: sst2_llama8b_lora, variant: agc0, train_set_seed: 0}
+- {id: sst2_llama8b_lora_agc0_lr2em3_s0, setting: sst2_llama8b_lora, variant: agc0, learning_rate: 2.0e-3, train_set_seed: 0}
+- {id: sst2_llama8b_lora_agc0_lr4em3_s0, setting: sst2_llama8b_lora, variant: agc0, learning_rate: 4.0e-3, train_set_seed: 0}
+- {id: sst2_llama8b_lora_agc0_lr8em3_s0, setting: sst2_llama8b_lora, variant: agc0, learning_rate: 8.0e-3, train_set_seed: 0}

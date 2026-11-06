@@ -1,0 +1,16 @@
+# Step-budget sweeps. Feeds app:protocol-details, app:zpl-canonical, tab:zpl-ft-ladder.
+- {id: squad_6p7b_ft_bac0_T4000_s0, setting: squad_6p7b_ft, variant: bac0, max_steps: 4000, train_set_seed: 0}
+
+- {id: sst2_1p3b_ft_agc0_c1e9_T1000_s0, setting: sst2_1p3b_ft, variant: agc0, pac_clip: 1.0e+9, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_c1e9_T2000_s0, setting: sst2_1p3b_ft, variant: agc0, pac_clip: 1.0e+9, max_steps: 2000, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_c1e9_T3000_s0, setting: sst2_1p3b_ft, variant: agc0, pac_clip: 1.0e+9, max_steps: 3000, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_c1e9_T4000_s0, setting: sst2_1p3b_ft, variant: agc0, pac_clip: 1.0e+9, max_steps: 4000, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_c1e9_T5000_s0, setting: sst2_1p3b_ft, variant: agc0, pac_clip: 1.0e+9, max_steps: 5000, train_set_seed: 0}
+
+- {id: sst2_6p7b_ft_agc0_c1e9_T1500_s0, setting: sst2_6p7b_ft, variant: agc0, pac_clip: 1.0e+9, max_steps: 1500, train_set_seed: 0}
+- {id: sst2_6p7b_ft_agc0_c1e9_T1500_s1, setting: sst2_6p7b_ft, variant: agc0, pac_clip: 1.0e+9, max_steps: 1500, train_set_seed: 1}
+- {id: sst2_6p7b_ft_agc0_c1e9_T1500_s2, setting: sst2_6p7b_ft, variant: agc0, pac_clip: 1.0e+9, max_steps: 1500, train_set_seed: 2}
+
+- {id: sst2_6p7b_lora_agc0_T1500_s0, setting: sst2_6p7b_lora, variant: agc0, max_steps: 1500, train_set_seed: 0}
+- {id: sst2_6p7b_lora_agc0_T1500_s1, setting: sst2_6p7b_lora, variant: agc0, max_steps: 1500, train_set_seed: 1}
+- {id: sst2_6p7b_lora_agc0_T1500_s2, setting: sst2_6p7b_lora, variant: agc0, max_steps: 1500, train_set_seed: 2}

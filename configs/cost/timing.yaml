@@ -1,0 +1,15 @@
+# Per-step cost measurements. Feeds tab:cost-profile, tab:cost-sweeps.
+- {id: sst2_1p3b_ft_agc_mi033_cost_c1000_T60_s0, setting: sst2_1p3b_ft, variant: agc, pac_clip: 1000.0, max_steps: 60, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_ft_agc0_cost_c1000_T60_s0, setting: sst2_1p3b_ft, variant: agc0, pac_clip: 1000.0, max_steps: 60, train_set_seed: 0}
+- {id: sst2_1p3b_ft_ref_cost_c1000_T60_s0, setting: sst2_1p3b_ft, variant: nonprivate, pac_clip: 1000.0, max_steps: 60, train_set_seed: 0}
+
+- {id: sst2_1p3b_lora_agc_mi033_cost_N500_M128_lr1em3_T10_s0, setting: sst2_1p3b_lora, variant: agc, learning_rate: 1.0e-3, max_steps: 10, num_train: 500, per_device_train_batch_size: 500, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_cost_N1000_M1024_lr1em3_T10_s0, setting: sst2_1p3b_lora, variant: agc, learning_rate: 1.0e-3, max_steps: 10, pac_m: 1024, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_cost_N1000_M32_lr1em3_T10_s0, setting: sst2_1p3b_lora, variant: agc, learning_rate: 1.0e-3, max_steps: 10, pac_m: 32, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_cost_N1000_M512_lr1em3_T10_s0, setting: sst2_1p3b_lora, variant: agc, learning_rate: 1.0e-3, max_steps: 10, pac_m: 512, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_cost_N1000_M128_lr1em3_T10_s0, setting: sst2_1p3b_lora, variant: agc, learning_rate: 1.0e-3, max_steps: 10, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_cost_N2000_M128_lr1em3_T10_s0, setting: sst2_1p3b_lora, variant: agc, learning_rate: 1.0e-3, max_steps: 10, num_train: 2000, per_device_train_batch_size: 2000, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_cost_N4000_M128_lr1em3_T10_s0, setting: sst2_1p3b_lora, variant: agc, learning_rate: 1.0e-3, max_steps: 10, num_train: 4000, per_device_train_batch_size: 4000, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc_mi033_cost_N1000_M128_lr1em3_T60_s0, setting: sst2_1p3b_lora, variant: agc, learning_rate: 1.0e-3, max_steps: 60, pac_mi: 0.33, train_set_seed: 0}
+- {id: sst2_1p3b_lora_agc0_cost_lr1em3_T60_s0, setting: sst2_1p3b_lora, variant: agc0, learning_rate: 1.0e-3, max_steps: 60, train_set_seed: 0}
+- {id: sst2_1p3b_lora_ref_cost_lr1em3_T60_s0, setting: sst2_1p3b_lora, variant: nonprivate, learning_rate: 1.0e-3, max_steps: 60, train_set_seed: 0}

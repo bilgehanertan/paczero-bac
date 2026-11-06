@@ -1,0 +1,9 @@
+# Pretrained models, no training. Feeds tab:full-grid-squad, tab:full-grid-sst2.
+- {id: squad_qwen7b_zeroshot_s0, variant: zeroshot, model_name: Qwen/Qwen2.5-7B, task_name: SQuAD, pac_sdpa_attention: true, train_set_seed: 0}
+- {id: sst2_qwen7b_zeroshot_s0, variant: zeroshot, model_name: Qwen/Qwen2.5-7B, task_name: SST2, pac_sdpa_attention: true, train_set_seed: 0}
+- {id: squad_1p3b_zeroshot_s0, variant: zeroshot, model_name: facebook/opt-1.3b, task_name: SQuAD, train_set_seed: 0}
+- {id: sst2_1p3b_zeroshot_s0, variant: zeroshot, model_name: facebook/opt-1.3b, task_name: SST2, train_set_seed: 0}
+- {id: squad_6p7b_zeroshot_s0, variant: zeroshot, model_name: facebook/opt-6.7b, task_name: SQuAD, train_set_seed: 0}
+- {id: sst2_6p7b_zeroshot_s0, variant: zeroshot, model_name: facebook/opt-6.7b, task_name: SST2, train_set_seed: 0}
+- {id: squad_llama8b_zeroshot_s0, variant: zeroshot, model_name: meta-llama/Llama-3.1-8B, task_name: SQuAD, pac_sdpa_attention: true, train_set_seed: 0}
+- {id: sst2_llama8b_zeroshot_s0, variant: zeroshot, model_name: meta-llama/Llama-3.1-8B, task_name: SST2, pac_sdpa_attention: true, train_set_seed: 0}

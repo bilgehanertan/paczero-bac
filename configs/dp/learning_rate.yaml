@@ -1,0 +1,16 @@
+# Learning-rate selection of the in-house Llama-3.1-8B DPZero and DP-AggZO runs at epsilon 2. Feeds tab:headline-budget.
+- {id: squad_llama8b_ft_dpaggzo_eps2_K16_lr2em6_T1000_s0, variant: dpaggzo, MODEL: meta-llama/Llama-3.1-8B, TASK: SQuAD, LR: 2.0e-6, DP_CLIP: 7.5, N: 16, STEPS: 1000, DP_EPS: 2.0}
+- {id: squad_llama8b_ft_dpaggzo_eps2_K16_lr1em5_T1000_s0, variant: dpaggzo, MODEL: meta-llama/Llama-3.1-8B, TASK: SQuAD, LR: 1.0e-5, DP_CLIP: 7.5, N: 16, STEPS: 1000, DP_EPS: 2.0}
+- {id: squad_llama8b_ft_dpaggzo_eps2_K16_lr5em5_T1000_s0, variant: dpaggzo, MODEL: meta-llama/Llama-3.1-8B, TASK: SQuAD, LR: 5.0e-5, DP_CLIP: 7.5, N: 16, STEPS: 1000, DP_EPS: 2.0}
+- {id: squad_llama8b_ft_dpzero_eps2_lr2em6_T1000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SQuAD, LR: 2.0e-6, DP_CLIP: 7.5, STEPS: 1000, DP_EPS: 2.0}
+- {id: squad_llama8b_ft_dpzero_eps2_lr1em5_T1000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SQuAD, LR: 1.0e-5, DP_CLIP: 7.5, STEPS: 1000, DP_EPS: 2.0}
+- {id: squad_llama8b_ft_dpzero_eps2_lr5em5_T1000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SQuAD, LR: 5.0e-5, DP_CLIP: 7.5, STEPS: 1000, DP_EPS: 2.0}
+
+- {id: sst2_llama8b_ft_dpaggzo_eps2_K16_lr1em6_T1000_s0, variant: dpaggzo, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 1.0e-6, DP_CLIP: 25.0, N: 16, STEPS: 1000, DP_EPS: 2.0}
+- {id: sst2_llama8b_ft_dpaggzo_eps2_K16_lr5em6_T1000_s0, variant: dpaggzo, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, N: 16, STEPS: 1000, DP_EPS: 2.0}
+- {id: sst2_llama8b_ft_dpaggzo_eps2_K16_lr2em5_T1000_s0, variant: dpaggzo, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 2.0e-5, DP_CLIP: 25.0, N: 16, STEPS: 1000, DP_EPS: 2.0}
+- {id: sst2_llama8b_ft_dpzero_eps2_lr2em7_T20000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 2.0e-7, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 2.0}
+- {id: sst2_llama8b_ft_dpzero_eps2_lr5em7_T20000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 5.0e-7, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 2.0}
+- {id: sst2_llama8b_ft_dpzero_eps2_lr1em6_T20000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 1.0e-6, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 2.0}
+- {id: sst2_llama8b_ft_dpzero_eps2_lr5em6_T20000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 5.0e-6, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 2.0}
+- {id: sst2_llama8b_ft_dpzero_eps2_lr2em5_T20000_s0, variant: dpzero, MODEL: meta-llama/Llama-3.1-8B, TASK: SST2, LR: 2.0e-5, DP_CLIP: 25.0, STEPS: 20000, DP_EPS: 2.0}

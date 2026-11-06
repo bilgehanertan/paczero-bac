@@ -1,0 +1,36 @@
+diff --git a/opt/src/utils.py b/opt/src/utils.py
+index 3d58ea6..5c13267 100644
+--- a/opt/src/utils.py
++++ b/opt/src/utils.py
+@@ -47,7 +47,8 @@ def forward_wrap_with_option_len_dpzero(self, input_ids=None, labels=None, optio
+ 
+     loss = None
+     # Shift so that tokens < n predict n
+-    shift_logits = logits[..., :-1, :].contiguous()
++    _chunked = (num_options is None) and dpzero
++    shift_logits = None if _chunked else logits[..., :-1, :].contiguous()
+     # Here we use input_ids (which should always = labels) bc sometimes labels are correct candidate IDs
+     shift_labels = torch.clone(input_ids)[..., 1:].contiguous()
+     shift_labels[shift_labels == self.config.pad_token_id] = -100
+@@ -91,9 +92,18 @@ def forward_wrap_with_option_len_dpzero(self, input_ids=None, labels=None, optio
+             loss = loss_fct(selected_log_probs, labels)
+     else:
+         if dpzero:
+-            loss_unred = loss_fct(shift_logits.transpose(1,2), shift_labels)
+-            mask = (shift_labels != -100)
+-            loss = (loss_unred * mask).sum(dim=1) / mask.sum(dim=1)
++            _budget = 4 * (1 << 30)
++            _per = max(1, (logits.size(1) - 1) * logits.size(2) * logits.element_size())
++            _c = max(1, min(logits.size(0), int(_budget // _per)))
++            _parts = []
++            for _s0 in range(0, logits.size(0), _c):
++                _sl = logits[_s0:_s0 + _c, :-1, :].contiguous()
++                _lb = shift_labels[_s0:_s0 + _c]
++                _u = loss_fct(_sl.transpose(1, 2), _lb)
++                _m = (_lb != -100)
++                _parts.append((_u * _m).sum(dim=1) / _m.sum(dim=1))
++                del _sl, _u
++            loss = torch.cat(_parts, dim=0)
+         else:
+             loss = loss_fct(shift_logits.view(-1, self.config.vocab_size), shift_labels.view(-1))
+ 

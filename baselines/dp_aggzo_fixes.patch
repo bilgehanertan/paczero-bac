@@ -1,0 +1,30 @@
+diff --git a/opt/examples/dpaggzo.sh b/opt/examples/dpaggzo.sh
+index 20f7307..f342e88 100644
+--- a/opt/examples/dpaggzo.sh
++++ b/opt/examples/dpaggzo.sh
+@@ -83,6 +83,7 @@ python run_dpaggzo.py \
+     $EXTRA_ARGS \
+     $TASK_ARGS \
+     "$@"
++_dp_rc=$?
+ 
+ echo $TAG
+ echo $MODEL_NAME
+@@ -99,3 +100,4 @@ echo "DP_CLIP: $DP_CLIP"
+ echo "number of directions: $N"
+ # echo "Extra args: $EXTRA_ARGS $TASK_ARGS"
+ 
++exit $_dp_rc
+diff --git a/opt/src/tasks.py b/opt/src/tasks.py
+index 190f9e6..52c7abe 100644
+--- a/opt/src/tasks.py
++++ b/opt/src/tasks.py
+@@ -362,7 +362,7 @@ class SQuADDataset(Dataset):
+         self.load_dataset()
+         
+     def load_dataset(self):
+-        dataset = load_dataset("squad")
++        dataset = load_dataset("squad", "plain_text")
+         train_examples = dataset["train"]
+         valid_examples = dataset["validation"]
+ 
